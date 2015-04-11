@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var label:UILabel!
-    var number:Int = 0
+    var number:float_t = 0
     
 
     override func viewDidLoad() {
@@ -25,22 +25,48 @@ class ViewController: UIViewController {
     @IBAction func plus(){
         number=number+1
         label.text="\(number)"
+        changeColor()
     }
     @IBAction func mainasu(){
         number = number-1
         label.text="\(number)"
+        changeColor()
     }
     @IBAction func clear(){
         number = 0
         label.text="\(number)"
+        label.textColor = UIColor .blackColor()
     }
     @IBAction func kakeru(){
         number = number*2
         label.text="\(number)"
+        changeColor()
     }
     @IBAction func waru(){
         number = number/2
         label.text="\(number)"
+        changeColor()
+    }
+    @IBAction func plus10(){
+        number = number+10
+        label.text="\(number)"
+        changeColor()
+    }
+    @IBAction func mainasu10(){
+        number = number-10
+        label.text="\(number)"
+        changeColor()
+    }
+    func changeColor(){
+        if number>10{
+            label.textColor = UIColor .blueColor()
+        }
+        else if number < -10{
+            label.textColor = UIColor .yellowColor()
+        }
+        else{
+            label.textColor = UIColor .blackColor()
+        }
     }
 }
 
