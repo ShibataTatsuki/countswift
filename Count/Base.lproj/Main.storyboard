@@ -116,7 +116,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPO-uI-8nJ">
-                                <rect key="frame" x="20" y="338" width="141" height="48"/>
+                                <rect key="frame" x="20" y="336" width="141" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.32567218980772705" blue="0.4930129052541754" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="＋１００">
@@ -128,7 +128,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSf-uB-7H5">
-                                <rect key="frame" x="162" y="338" width="133" height="48"/>
+                                <rect key="frame" x="157" y="336" width="138" height="50"/>
                                 <color key="backgroundColor" red="0.59132021472337259" green="1" blue="0.1384224929627812" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="−１００">
