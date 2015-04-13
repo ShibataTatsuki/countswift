@@ -58,6 +58,16 @@ class ViewController: UIViewController {
         changeColor()
         hantei()
     }
+    @IBAction func plus100(){
+        number = number+100
+        label.text = "\(number)"
+        changeColor()
+    }
+    @IBAction func mainasu100(){
+        number = number-100
+        label.text = "\(number)"
+        changeColor()
+    }
     @IBAction func mainasu10(){
         number = number-10
         label.text="\(number)"
@@ -80,7 +90,6 @@ class ViewController: UIViewController {
         if number > 100{
             hanteilabel.text = "very good"
         }
-        
         else {
             hanteilabel.text = ""
         }
